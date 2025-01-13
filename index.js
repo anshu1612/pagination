@@ -56,7 +56,8 @@ function renderContent(page) {
     if (data[i]) {
       li.textContent = i + 1 + "  " + data[i].title;
     }
-    li.className = "bg-white border border-indigo-600 text-gray-800 p-4 rounded-2xl mb-2 shadow";
+    li.className =
+      "bg-white border border-indigo-600 text-gray-800 p-4 rounded-2xl mb-2 shadow";
     content.appendChild(li);
   }
 }
